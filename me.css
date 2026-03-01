@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  h1, h3, nav, .profile-image, .thumbnail-section {
   text-align: center;
   margin-top: 50px;
 }
@@ -79,4 +80,11 @@ section,
 #fun-fact:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+p {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 18px;
 }
