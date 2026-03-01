@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.profile-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px; 
+}
+
+.thumbnail-section {
+  margin-top: 20px;
+}
+
+.thumbnail {
+  width: 150px;   
+  height: auto;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #444;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
