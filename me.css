@@ -77,3 +77,14 @@ ul {
   transform: translateY(-5px);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
 }
+
+.contact {
+  text-align: center;
+}
+
+ul {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
+  list-style-type: square;
+}
