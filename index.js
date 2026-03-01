@@ -1,7 +1,6 @@
 const navLinks = document.querySelectorAll(".nav-link");
 const sections = document.querySelectorAll("h2[id]");
 
-// Smooth scroll
 navLinks.forEach(link => {
   link.addEventListener("click", function (e) {
     e.preventDefault();
@@ -15,7 +14,6 @@ navLinks.forEach(link => {
   });
 });
 
-// Highlight active section while scrolling
 window.addEventListener("scroll", () => {
   let currentSection = "";
 
@@ -32,4 +30,14 @@ window.addEventListener("scroll", () => {
       link.classList.add("active");
     }
   });
+});
+
+const title = document.getElementById("main-title");
+
+title.addEventListener("click", function() {
+  if (title.style.color === "green") {
+    title.style.color = "#333";
+  } else {
+    title.style.color = "green";
+  }
 });

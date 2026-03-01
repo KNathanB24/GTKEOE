@@ -87,19 +87,3 @@ ul {
   list-style-type: square;
 }
 
-.nav-link {
-  text-decoration: none;
-  color: #0066cc;
-  font-weight: normal;
-  transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #003366;
-}
-
-.nav-link.active {
-  color: #000;
-  font-weight: bold;
-  border-bottom: 2px solid #000;
-}
