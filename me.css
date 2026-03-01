@@ -1,15 +1,28 @@
 body {
   font-family: Arial, sans-serif;
-  h1, h3, nav, .profile-image, .thumbnail-section {
+  background: linear-gradient(to right, #f4f7fa, #e8eef5);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3, nav, .profile-image, .thumbnail-section {
   text-align: center;
-  margin-top: 50px;
 }
 
 h1 {
   color: #333;
+  margin-top: 50px;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #444;
 }
 
 p {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
   font-size: 18px;
 }
 
@@ -19,14 +32,13 @@ a {
 }
 
 .profile-image {
-  text-align: center;
   margin-bottom: 20px;
 }
 
 .profile-image img {
   width: 300px;
   height: auto;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 .thumbnail-section {
@@ -34,17 +46,8 @@ a {
 }
 
 .thumbnail {
-  width: 150px;   
+  width: 150px;
   height: auto;
-}
-
-h2 {
-  margin-top: 30px;
-  color: #444;
-}
-
-ul {
-  list-style-position: inside;
 }
 
 ul {
@@ -54,16 +57,9 @@ ul {
 
 /* Substantial Enhancement: Modern Card Layout */
 
-body {
-  background: linear-gradient(to right, #f4f7fa, #e8eef5);
-  margin: 0;
-  padding: 0;
-}
-
-section, 
-#introduction, 
-#course-goals, 
-#hobbies, 
+#introduction,
+#course-goals,
+#hobbies,
 #fun-fact {
   background-color: white;
   width: 70%;
@@ -80,11 +76,4 @@ section,
 #fun-fact:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
-}
-
-p {
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: left;
-  font-size: 18px;
 }
