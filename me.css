@@ -50,3 +50,33 @@ ul {
   list-style-type: square;
   list-style-position: inside;
 }
+
+/* Substantial Enhancement: Modern Card Layout */
+
+body {
+  background: linear-gradient(to right, #f4f7fa, #e8eef5);
+  margin: 0;
+  padding: 0;
+}
+
+section, 
+#introduction, 
+#course-goals, 
+#hobbies, 
+#fun-fact {
+  background-color: white;
+  width: 70%;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#introduction:hover,
+#course-goals:hover,
+#hobbies:hover,
+#fun-fact:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
